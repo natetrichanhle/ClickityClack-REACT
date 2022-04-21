@@ -19,7 +19,8 @@
   "homepage": "https://github.com/natetrichanhle/ClickityClack-REACT#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "mongoose": "^6.3.0"
+    "mongoose": "^6.3.0",
+    "react-router-dom": "^5.3.1"
   },
   "description": ""
 }
