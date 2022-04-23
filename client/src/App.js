@@ -4,10 +4,17 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
+import SellFormView from "./views/SellFormView";
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/item/new">
+          <SellFormView />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
